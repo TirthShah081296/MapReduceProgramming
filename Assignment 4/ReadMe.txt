@@ -1,6 +1,3 @@
-# MapReduceProgramming
-This project includes the code and jar file compiled for performing equijoin using Hadoop framework MapReduce. Coding is done is Java
-
 Readme
 
 Map-Reduce program that will perform EquiJoin using Hadoop Framework 2.7.7 in Java 1.8.
@@ -46,3 +43,4 @@ line,2,10,5, order,2,aaa,d2
 line,3,20,1, order,3,bbb,d3
 
 3. Driver Class(Main): In Main class, configuration object is created. This object is used to set the job. The equiJoinMapper class and equiJoinReducer class are set using this job. The outputkey and outputvalue class along with the inputfile and outputfile path are set with the job instance. The args[0] corresponds to input path and args[1] corresponds to the output path.
+
